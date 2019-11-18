@@ -1,0 +1,101 @@
+Standard resolution: 1200x1800
+Lista de receitas:
+
+1: Carbonara
+2: Pao caseiro
+3: Lasanha bolonhesa
+4: Mac n' cheese
+5: Tonkotsu ramen
+6: Spaguetti and meatballs
+7: Feijoada
+8: Caldo verde
+9: Risotto/ all types
+10: Potato salad
+11: Stroganoff
+12: Fillet Mignon with salt�d vegetables
+13: beef stew
+14: Gnoq
+15: Tacos
+
+
+
+Nationality:
+
+AMERICAN:
+Mac n' cheese
+Cheeseburguer
+Apple pie
+New york-style pizza
+Donuts
+Grilled cheese
+
+ITALIAN:
+Lasagna
+Spaguetti and meatballs
+Tomato risotto
+Carbonara
+Bruschetta
+Caprese salad
+
+JAPANESE:
+Tonkotsu ramen
+yakisoba
+Okonomiaki
+Sushi
+
+PORTUGUESE:
+Caldo verde
+bacalhau
+pastel de nata
+quindim
+rabanada
+bolinho de bacalhau
+
+FRENCH:
+Creme Brulee
+Chocolate souffle
+Steak au Poivre	
+Ratatoille
+Coq au vin
+Chocolate mousse	
+
+MEXICAN:
+tacos
+Enchilladas
+Nachos w/ dip
+Burrito
+Quesadillas
+Huevos rancheros
+
+BRAZILIAN:
+Feijoada
+Estrogonofe
+acarajé
+
+SPANISH:
+paella
+empanada
+chorizo
+creme catalán
+churros
+sangria
+
+PASTA:
+Lasagna
+Spaguetti and meatballs
+Mac n' cheese
+Carbonara
+
+
+Meat:
+Fillet Mignon with salt�d vegetables
+Stroganoff
+cheeseburguer
+
+
+Veggie:
+French fries
+Zucchini spaguetti
+Fried rice w/ vegetables
+caprese salad
+Caesar salad

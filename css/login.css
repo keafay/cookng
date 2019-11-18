@@ -1,0 +1,97 @@
+*{
+    margin: 0 auto
+}
+.header{
+    height:8vh; 
+    width:100vw ;
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    top:0;
+    z-index: 2;
+    clear: both;
+}
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+.logo{
+   height:8vh;
+   width:50vw;
+   float: left;
+   background-color: #515151;
+}
+.logo p {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size:2.5vw;
+    color:white;
+    text-decoration: none;
+}
+.logo a:hover{
+    opacity: 0.7;
+}
+.logo a{
+    text-decoration: none;
+    color:white;
+}
+.header_links{
+    float: right;
+    background-color: #515151;
+    height:8vh;
+    width:50vw;
+    display: flex;
+}
+.header_links div{
+    
+    width: 10vw;
+    height:8vh;
+    text-align: center;
+    padding:vh;
+}
+.header_links p{
+    margin-top:1.5vh;
+    font-family: 'Anton', sans-serif;
+    font-size:1.5vw;
+}
+.header_links a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.header_links p:hover{
+    opacity: 0.7;
+}
+.contact_drop{
+    position: absolute;
+    display:none;
+    padding-top:1.9vh;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 0.8s;
+}
+@keyframes example {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+.contact_drop a{
+    font-size: 1.5vw;
+    font-family: 'Anton', sans-serif;
+}
+.contact_drop a:hover{
+    opacity: 0.7;
+}
+.contact_drop div{
+    background-color: #515151;
+    width:6vw;
+    height:5vh;
+    padding-right: 2vh;
+    padding-left: 1vw;
+}
+.social p{
+    color:white;
+    cursor: default;
+}
+.social:hover .contact_drop{
+    display:block;
+}
+.lil{
+    width: 15vw;
+    height: 15vw;
+    background-color: black;
+    margin-top:15vw;
+}
