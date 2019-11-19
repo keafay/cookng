@@ -1,0 +1,316 @@
+*{
+    margin: 0 auto
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    height:8vh; 
+    width:100vw ;
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    z-index: 2;
+    clear: both;
+}
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+.logo{
+   height:8vh;
+   width:50vw;
+   float: left;
+   background-color: #515151;
+}
+.logo p {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size:2.5vw;
+    color:white;
+    text-decoration: none;
+}
+.logo a:hover{
+    opacity: 0.7;
+}
+.logo a{
+    text-decoration: none;
+    color:white;
+}
+.header_links{
+    float: right;
+    background-color: #515151;
+    height:8vh;
+    width:50vw;
+    display: flex;
+}
+.header_links div{
+    
+    width: 10vw;
+    height:8vh;
+    text-align: center;
+    padding:vh;
+}
+.header_links p{
+    margin-top:1.5vh;
+    font-family: 'Anton', sans-serif;
+    font-size:1.5vw;
+}
+.header_links a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.header_links p:hover{
+    opacity: 0.7;
+}
+.contact_drop{
+    position: absolute;
+    display:none;
+    padding-top:1.9vh;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 0.8s;
+}
+@keyframes example {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+.contact_drop a{
+    font-size: 1.5vw;
+    font-family: 'Anton', sans-serif;
+}
+.contact_drop a:hover{
+    opacity: 0.7;
+}
+.contact_drop div{
+    background-color: #515151;
+    width:6vw;
+    height:5vh;
+    padding-right: 2vh;
+    padding-left: 1vw;
+}
+.social p{
+    color:white;
+    cursor: default;
+}
+.social:hover .contact_drop{
+    display:block;
+}
+
+
+.cu {
+    height: 100vh;
+    background-image: url("../imgs/imagem_capa.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+}
+
+
+.centro_img{
+    position: absolute;
+    top:50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+.centro_img p{
+    font-family: 'Courgette', cursive;
+    color: rgb(0, 0, 0);
+    font-size:5vw;
+    -webkit-text-stroke: 0.1vw rgb(255, 255, 255);
+    
+}
+.btn_scroll{
+    position: absolute;
+    top: 90vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+.btn_scroll p{
+    font-size: 5vw;
+    color: white;
+    -webkit-text-stroke: 0.1vw rgb(0, 0, 0);
+    opacity: 1;
+}
+.btn_scroll a{
+    text-decoration: none
+}
+.btn_scroll p:hover{
+    opacity: 0.7;
+}
+#div_none{
+    height:2vw;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+}
+#receitas{
+    width:100%;
+    height:180vh;
+}
+#txtin h1{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 3vw;
+}
+#txtin{
+    width:80vw;
+    margin-top: 4vw;
+    margin-bottom: 5vw;
+}
+.thumbs{
+    display: flex;
+    margin-left: 6vw;
+    margin-right: 10vw;
+    user-select: none;
+}
+.thumbs a{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vw;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    
+}
+.thumbs > div{
+    background-color: rgb(255, 255, 255);
+    width: 25vw;
+    height: 40vh;
+    margin: 2vw;
+}
+.menino{
+    background-color: #ffffff;
+    height: 14.069171648163962vw;
+    width:100%;
+    overflow: hidden;
+}
+.menino img{
+    transition: 1s;
+    filter: blur(2px);
+}
+.menino:hover img{
+    transform: scale(1.2);
+    filter: none;
+}
+
+.donate{
+    width:100%;
+    height: 60vh;
+    background-color: #515151;
+    background-image: url("/imgs/macar.jpg");
+    background-attachment: fixed;
+    background-position: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+}
+.donate_title{
+    position: absolute;
+    top:310vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.donate_title p{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size:5vw;
+}
+.donate_btn{
+    position: absolute;
+    width: 12vw;
+    height:8vh;
+    top:330vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #515151a2;
+    border: solid 0.2vw black;
+    border-radius: 1    vw;
+}
+.donate_btn :hover{
+    width: 12.2vw;
+    height:8.2vh;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.donate_btn p{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size:3vw;
+    color:black;
+}
+.vid_intro{
+    height:90vh;
+    width:100%;
+}
+.vid_txt{
+    height:20vh;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+}
+.vid_intro p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 3vw;
+}
+.vid_frame{
+    width:100%;
+    height:70vh;
+    background-color: rgb(255, 255, 255);
+}
+.vid_frame iframe{
+    margin-top: 6vw;
+    margin-left: 30vw;
+}
+footer{
+    display:flex;
+    height:50vh;
+    width:100%;
+    background-color: black;
+
+}
+footer div{
+    width: 50%;
+    height:50vh;
+    background-color: rgb(0, 0, 0);
+}
+footer h1{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size:5vw;
+}
+.footer_logo{
+    height:20vh;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+    padding-top:20vh;
+    padding-left:18vw;
+}
+.footer_copy{
+    height:10vh;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+}
+.footer_copy p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7vh;
+    font-size: 1vw;
+    margin-left:1vw;
+}
+.footer_list p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color:white;
+    margin-left: 22vw;
+    margin-top:0.5vw;
+}
+.footer_list{
+    padding-top:10vh;
+    height:40vh;
+}
+.footer_list a{
+    text-decoration: none;
+    color: white;
+    font-size:1.5vw;
+}
