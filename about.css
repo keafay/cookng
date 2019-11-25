@@ -60,8 +60,8 @@
     position: absolute;
     display:none;
     padding-top:1.9vh;
-    -webkit-animation-name: example;
-    -webkit-animation-duration: 0.8s;
+    animation-name: example;
+    animation-duration: 0.8s;
 }
 @keyframes example {
     from {opacity:0;}
@@ -91,35 +91,44 @@
 .corpo{
     padding-top:8vh;
 }
-.about_txt{
-    padding-left:35%;
-    padding-top:0vh;
-}
-.about_txt p{
+.about{
     font-family: 'Courgette', cursive;
     font-size:5vw;
     display: inline-block;
+    width:100%;
+    background-color: aquamarine;
+    text-align: center;
 }
 .fotominha{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 77.5vh;
+    height: 76.8vh;
     width: 20vw;
     background-color: blue;
     float: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.tudo{
+    margin-left: 3vw; 
+}
 .nome{
     font-size:5vw;
     height:15vh;
-    padding-top: 5vh;
     font-family: 'Open Sans', sans-serif;
-    margin-left: 21vw;
+    padding-left: 3vw;
+    background-color: burlywood;
+    text-align: center;
 }
 .texto{
     font-family: 'Roboto', sans-serif;
     font-size:2.5vw;
+    width:75%;
+    background-color: darksalmon;
+    margin-top: 5vh;
+    text-indent: 2vw;
+    margin: 0 2vw;
+    float: right;
 }
 .arigatu{
     font-size: 2.9vw;

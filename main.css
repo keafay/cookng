@@ -62,9 +62,9 @@ html{
 .contact_drop{
     position: absolute;
     display:none;
-    padding-top:1.9vh;
-    -webkit-animation-name: example;
-    -webkit-animation-duration: 0.8s;
+    padding-top: 0.5vh;
+    animation-name: example;
+    animation-duration: 0.8s;
 }
 @keyframes example {
     from {opacity:0;}
@@ -79,14 +79,18 @@ html{
 }
 .contact_drop div{
     background-color: #515151;
-    width:6vw;
-    height:5vh;
+    width: 6vw;
+    height:auto;
     padding-right: 2vh;
     padding-left: 1vw;
 }
 .social p{
     color:white;
     cursor: default;
+}
+.social{
+    position: relative;
+    display: inline-block;
 }
 .social:hover .contact_drop{
     display:block;
@@ -95,7 +99,7 @@ html{
 
 .cu {
     height: 100vh;
-    background-image: url("../imgs/imagem_capa.jpg");
+    background-image: url("imagem_capa.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -196,7 +200,7 @@ html{
     width:100%;
     height: 60vh;
     background-color: #515151;
-    background-image: url("/imgs/macar.jpg");
+    background-image: url("macar.jpg");
     background-attachment: fixed;
     background-position: 40%;
     background-repeat: no-repeat;

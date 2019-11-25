@@ -60,9 +60,9 @@
 .contact_drop{
     position: absolute;
     display:none;
-    padding-top:1.9vh;
-    -webkit-animation-name: example;
-    -webkit-animation-duration: 0.8s;
+    padding-top: 0.5vh;
+    animation-name: example;
+    animation-duration: 0.8s;
 }
 @keyframes example {
     from {opacity:0;}
@@ -89,9 +89,123 @@
 .social:hover .contact_drop{
     display:block;
 }
-.lil{
-    width: 15vw;
-    height: 15vw;
+
+.corpo{
+    margin-left:28.5vw;
+    margin-right:20vw;
+    padding-top:20vh;
+}
+.corpo h1{
+    font-family: 'Raleway', sans-serif;
+    font-size:5vw;
+    margin-left:15vw;
+}
+.corpo h4{
+    margin-top:0.5vw;
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+}
+.inputfname{
+    float:left;
+    margin-right:2vw;
+}
+.inputlname{
+    float:left;
+}
+form{
+    margin-top:10vh;
+}
+form input{
+    font: 15px/24px 'Muli', sans-serif;
+    color: #333;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    margin-top: 1vw;
+    border-radius:0.15vw;
+    border: 0.08vw solid black;
+}
+.inputnames{
+    margin-bottom:5vh;
+}
+.email{
+    margin-top:7vw;
+}
+.mail_input{
+    margin-bottom:5vh;
+}
+form textarea{
+    border: 0.08vw solid black;
+    resize: vertical;
+}
+.button{
+    border: 0.2vw solid black;
+    width:7vw;
+    height:5vh;
+    float: left;
+    margin-top: 2vh;
+}
+.button p{
+    font-family: 'Roboto', sans-serif;
+    font-size:1.5vw;
+    margin-top:0.8vh;
+    margin-left:1vw;
+}
+.button_link{
+    text-decoration: none;
+    color:black;
+}
+#txt_submit{
+    float:left;
+    font-family: 'Roboto', sans-serif;
+    font-size:13pt;
+    color: rgb(204, 52, 52);
+}
+footer{
+    display:flex;
+    height:50vh;
+    width:100%;
     background-color: black;
-    margin-top:15vw;
+    margin-top:25vh;
+}
+footer div{
+    width: 50%;
+    height:50vh;
+    background-color: rgb(0, 0, 0);
+}
+footer h1{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size:5vw;
+}
+.footer_logo{
+    height:20vh;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+    padding-top:20vh;
+    padding-left:18vw;
+}
+.footer_copy{
+    height:10vh;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+}
+.footer_copy p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7vh;
+}
+.footer_list p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color:white;
+    margin-left: 22vw;
+    margin-top:0.5vw;
+}
+.footer_list{
+    padding-top:10vh;
+    height:40vh;
+}
+.footer_list a{
+    text-decoration: none;
+    color: white;
 }

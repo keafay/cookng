@@ -1,6 +1,7 @@
 var status=1;
 function submit() {
-    document.getElementById("txt_submit").innerHTML = "*Thanks for the feedback.*";
+    document.getElementById("txt_submit").innerHTML = "";
+    alert("Sorry\nThis function is still unavaliable")
 }
 
 function sort() {

@@ -61,9 +61,9 @@ html{
 .contact_drop{
     position: absolute;
     display:none;
-    padding-top:1.9vh;
-    -webkit-animation-name: example;
-    -webkit-animation-duration: 0.8s;
+    padding-top: 0.5vh;
+    animation-name: example;
+    animation-duration: 0.8s;
 }
 @keyframes example {
     from {opacity:0;}
