@@ -96,7 +96,7 @@
     font-size:5vw;
     display: inline-block;
     width:100%;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     text-align: center;
 }
 .fotominha{
@@ -105,7 +105,7 @@
     background-repeat: no-repeat;
     height: 76.8vh;
     width: 20vw;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     float: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -117,17 +117,17 @@
     height:15vh;
     font-family: 'Open Sans', sans-serif;
     padding-left: 3vw;
-    background-color: burlywood;
+    background-color: rgb(255, 255, 255);
     text-align: center;
 }
 .texto{
     font-family: 'Roboto', sans-serif;
     font-size:2.5vw;
     width:75%;
-    background-color: darksalmon;
+    background-color: rgb(255, 255, 255);
     margin-top: 5vh;
     text-indent: 2vw;
-    margin: 0 2vw;
+    margin: 5vw 2vw;
     float: right;
 }
 .arigatu{
@@ -136,4 +136,53 @@
     margin-top: 3vh;
     display: inline-block;
     font-family: 'Roboto', sans-serif;
+}
+footer{
+    display:flex;
+    height:50vh;
+    width:100%;
+    background-color: black;
+    margin-top:20vh;
+}
+footer div{
+    width: 50%;
+    height:50vh;
+    background-color: rgb(0, 0, 0);
+}
+footer h1{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size:5vw;
+}
+.footer_logo{
+    height:20vh;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+    padding-top:20vh;
+    padding-left:18vw;
+}
+.footer_copy{
+    height:10vh;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+}
+.footer_copy p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7vh;
+}
+.footer_list p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color:white;
+    margin-left: 22vw;
+    margin-top:0.5vw;
+}
+.footer_list{
+    padding-top:10vh;
+    height:40vh;
+}
+.footer_list a{
+    text-decoration: none;
+    color: white;
 }
