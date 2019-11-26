@@ -59,7 +59,7 @@
 .contact_drop{
     position: absolute;
     display:none;
-    padding-top:1.9vh;
+    padding-top: 0.5vh;
     animation-name: example;
     animation-duration: 0.8s;
 }
